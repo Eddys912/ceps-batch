@@ -1,0 +1,15 @@
+{
+  "entryFile": "src/app.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/controllers/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "dist",
+    "specVersion": 3,
+    "description": "Microservice for CEP retrieval",
+    "title": "CEP Microservice"
+  },
+  "routes": {
+    "routesDir": "src",
+    "middleware": "express"
+  }
+}
