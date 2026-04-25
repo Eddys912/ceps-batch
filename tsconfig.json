@@ -3,7 +3,7 @@
   "exclude": ["dist", "node_modules", "**/*.spec.ts", "**/*.test.ts"],
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"],
+      "@src/*": ["./src/*"],
       "@config/*": ["./src/config/*"],
       "@controllers/*": ["./src/controllers/*"],
       "@tests/*": ["./src/tests/*"],
