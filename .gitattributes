@@ -1,0 +1,16 @@
+# Gitattributes for ceps-batch
+# Documentation: https://git-scm.com/docs/gitattributes
+
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Project files
+*.ts text=auto eol=lf
+*.md text=auto eol=lf
+
+# Configuration files
+.editorconfig   text=auto eol=lf
+.gitattributes  text=auto eol=lf
+.gitignore      text=auto eol=lf
+.prettierignore text=auto eol=lf
+.prettierrc     text=auto eol=lf
